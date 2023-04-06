@@ -1,0 +1,78 @@
+
+.image img{
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin:10px;
+}
+
+
+
+.country-box {
+  display: flex;
+  height: max-content;
+  margin: 20px;
+  width: 600px;
+  flex-direction: column;
+  row-gap: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.city-box {
+  height: 180px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items:center;
+  column-gap: 0px;
+}
+
+.description-box {
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.price {
+  width: 340px;
+}
+
+.one-price {
+  display:flex;
+  align-items:right;
+  justify-content: space-between;
+
+}
+
+p {
+  margin: 0px;
+  color: blue;
+  font-weight:bold;
+}
+
+.city-division {
+  size: 2px;
+  width: 98%;
+  color: grey;
+  border-top: dashed;
+}
+
+.price-division {
+  size: 2px;
+  width: 98%;
+  color: grey;
+}
+
+.url {
+  margin: 0px;
+  color: blue;
+  font-weight:bold;
+  text-decoration: none;
+}
+
+
+
+/*bootstrap pour gerer l'affichage responsive de la grille, comme display grid
