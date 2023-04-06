@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trajet</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style2.css">
+
+
+</head>
+
+<body>
+  <h1 class="h1">Emmissions de CO2</h1>
+  <div class="box">
+    <div class="row">
+      <div class="col-lg-7 col-md-6 col-sm-6 col-xs-12 image">
+        <div class="city-image">
+          <img src="./images/paris.jpg"></a>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 interaction">
+        <form>
+          <div class="destination">
+            <label for="latitude" class="form-label">Latitude</label>
+            <input type="text" class="form-control" id="latitude">
+          </div>
+          <div class="destination">
+            <label for="longitude" class="form-label">Longitude</label>
+            <input type="text" class="form-control" id="longitude">
+          </div>
+          <button type="search" class="btn btn-primary">Search</button>
+        </form>
+        <div class = "response">
+          <h2 id="co2"></h2>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+<script src="./js/script.js"></script>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<!--b6dc824e-7fb0-4e72-913d-64afb1cf8144
+Navitiamuk...3!
+
+https://api.sncf.com/v1/coverage/sncf/journeys?min_nb_journeys=10&data_freshness=realtime&from=-0.556514;44.823462&to=2.317832062;48.837329984&datetime=20230405T100000-->

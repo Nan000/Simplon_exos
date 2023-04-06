@@ -1,0 +1,33 @@
+.box {
+  display: flex;
+  height: max-content;
+  margin: 20px;
+  width: 600px;
+  flex-direction: column;
+  row-gap: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+
+.city-image img {
+  border-radius: 10px;
+  margin:10px;
+  width : 100%;
+  min-width : 200px ;
+}
+
+.destination {
+  margin: 10px;
+}
+
+.btn{
+  margin: 5px;
+  background-color: rgb(4, 130, 172);
+}
+
+.form-label {
+  margin: 10px;
+  font-family: sans-serif;
+  color: rgba(9, 89, 151, 0.989);
+}
